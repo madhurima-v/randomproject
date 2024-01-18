@@ -1,0 +1,31 @@
+.change,
+.change1{
+        background-color: black;
+        color: white;
+        width: 100px;
+        height: 40px;
+}
+
+.one,
+.two {
+        display: inline-flex;
+}
+.one{
+        padding-left: 40px;
+}
+
+.two{
+        padding-left: 130px;
+}
+
+.change{
+        position: absolute;
+        top: 90px;
+        left:5px
+}
+
+.change1{
+        position: absolute;
+        top: 90px;
+        left: 160px;
+}
