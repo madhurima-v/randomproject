@@ -34,3 +34,40 @@
         padding-left: 180px;
         margin-top: 60px;
 }
+
+.change2,
+.change3{
+        background-color: black;
+        color: white;
+        width: 100px;
+        height: 40px;
+}
+
+.three,
+.four {
+        display: inline-flex;
+}
+.three{
+        padding-left: 40px;
+}
+
+.four{
+        padding-left: 130px;
+}
+
+.change2{
+        position: absolute;
+        top: 260px;
+        left:5px
+}
+
+.change3{
+        position: absolute;
+        top: 260px;
+        left: 160px;
+}
+
+.count1{
+        padding-left: 180px;
+        margin-top: 60px;
+}
