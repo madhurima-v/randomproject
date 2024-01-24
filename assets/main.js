@@ -3,10 +3,12 @@ count=0
 
 
 document.getElementsByClassName("change2")[0].onclick = function(){
+    document.getElementsByClassName("change3")[0].disabled = false;
     a = Math.random()
     m = parseInt(a*6+1)
         document.getElementsByTagName("h1")[2].textContent = m
          document.getElementsByClassName("change2")[0].disabled = true;
+}
 
     document.getElementsByClassName("change3")[0].onclick = function(){
         count++
@@ -20,5 +22,4 @@ document.getElementsByClassName("change2")[0].onclick = function(){
         
     }
     }
-}
 
