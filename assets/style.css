@@ -1,7 +1,10 @@
+body{
+        background-image: linear-gradient(to right, #5907c5,#9c1893, #e14658, #fdc933);
+}
 .change,
 .change1{
         background-color: black;
-        color: white;
+        color: #ffffff;
         width: 100px;
         height: 40px;
 }
@@ -9,36 +12,47 @@
 .one,
 .two {
         display: inline-flex;
+        color: white;
 }
 .one{
-        padding-left: 40px;
+        left: 50px;
+        top: 20px;
+        position: absolute;
 }
 
 .two{
-        padding-left: 130px;
+        left: 200px;
+        top: 20px;
+        position: absolute;
 }
 
 .change{
+        border-radius: 10%;
         position: absolute;
-        top: 90px;
+        top: 110px;
         left:5px
 }
 
 .change1{
+        border-radius: 10%;
         position: absolute;
-        top: 90px;
+        top: 110px;
         left: 160px;
 }
 
 .count{
-        padding-left: 180px;
-        margin-top: 60px;
+        position: absolute;
+        left: 280px;
+        font-size: 20px;
+        top: 85px;
+        color: white;
 }
+
 
 .change2,
 .change3{
         background-color: black;
-        color: white;
+        color: #ffffff;
         width: 100px;
         height: 40px;
 }
@@ -46,28 +60,48 @@
 .three,
 .four {
         display: inline-flex;
+        color: white;
 }
+
 .three{
-        padding-left: 40px;
+        left: 50px;
+        top: 320px;
+        position: absolute;
 }
 
 .four{
-        padding-left: 130px;
+        left: 200px;
+        top: 320px;
+        position: absolute;
 }
 
 .change2{
+        border-radius: 10%;
         position: absolute;
-        top: 260px;
+        top: 420px;
         left:5px
 }
 
 .change3{
+        border-radius: 10%;
         position: absolute;
-        top: 260px;
+        top: 420px;
         left: 160px;
 }
 
 .count1{
-        padding-left: 180px;
-        margin-top: 60px;
+        left: 280px;
+        font-size: 20px;
+        position: absolute;
+        top: 395px;
+        color: white;
+}
+
+
+div{
+        border: 1px solid black;
+        width: 98.5%;
+        position: absolute;
+        top: 260px;
+
 }
