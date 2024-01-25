@@ -105,3 +105,17 @@ div{
         top: 260px;
 
 }
+
+.res{
+        color: white;
+        position: absolute;
+        top: 80px;
+        left: 560px;
+}
+
+.res1{
+        color: white;
+        position: absolute;
+        top: 380px;
+        left: 560px;
+}
